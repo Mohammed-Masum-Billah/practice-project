@@ -1,0 +1,24 @@
+header{
+    background-image: url(https://images.unsplash.com/photo-1720188228786-e6cb3b668aef?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat:no-repeat ;
+    background-size: 100%;
+    width: auto;
+}
+nav > ul > li {
+    display: inline;
+    margin-right: 80px;
+    border: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font: 400 bold;
+    
+}
+nav li > a{
+    text-decoration: none;
+
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
