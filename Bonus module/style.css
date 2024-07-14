@@ -22,3 +22,8 @@ input:focus{
     color: darkgoldenrod;
     opacity: 0.7;
 }
+
+a:visited{
+    text-underline-position: above;
+    color: grey;
+}
