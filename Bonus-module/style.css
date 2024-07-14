@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Chivo Mono", monospace;
+}
+.soap{
+    color: blue;
+    
+}
+h3:hover{
+    background-color: rgba(137, 149, 160, 0.315);
+    border: 5px solid rgba(255, 218, 185, 0.258);
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    text-transform: uppercase;
+}
+
+input:focus{
+    background-color: rgba(108, 193, 193, 0.501);
+    border: 3px double crimson;
+    color: darkgoldenrod;
+    opacity: 0.7;
+}
+
+a:visited{
+    text-underline-position: above;
+    color: grey;
+}
+
+li:nth-child(2n+1){
+    text-transform: lowercase;
+    color: rgb(31, 227, 44);
+}
