@@ -3,6 +3,23 @@
 *{
     font-family: "Chivo Mono", monospace;
 }
+
+.box{
+    border: 2px;
+    width: 200px;
+    position: relative;
+}
+.boy{
+    z-index: 2;
+}
+.ring{
+    top:-90px;
+    z-index: 1;
+}
+.water{
+    top: -180px;
+}
+ /* This part shows the css position tag & uses using images */
 .soap{
     color: blue;
     
