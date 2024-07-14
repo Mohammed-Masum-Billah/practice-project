@@ -27,3 +27,8 @@ a:visited{
     text-underline-position: above;
     color: grey;
 }
+
+li:nth-child(2n+1){
+    text-transform: lowercase;
+    color: rgb(31, 227, 44);
+}
