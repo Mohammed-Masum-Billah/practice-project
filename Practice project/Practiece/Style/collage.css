@@ -23,3 +23,23 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+/* For small devices */
+
+@media screen and (max-width:576px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .row-3{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* For medium devices */
+
+@media screen and (min-width: 567px) and (max-width:992px) {
+    .row-3{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
