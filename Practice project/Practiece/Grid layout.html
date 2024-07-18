@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+    <style>
+        .header, .nav, .main, .sidebar, .advertise, .footer{
+            background-color: blanchedalmond;
+            border: 2px solid brown;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .header{
+            grid-area: header;
+        }
+        .nav{
+            grid-area: nav;
+        }
+        .main{
+            grid-area: main;
+        }
+        .sidebar{
+            grid-area: sidebar;
+        }
+        .advertise{
+            grid-area: advertise;
+        }
+        .footer{
+            grid-area: footer;
+        }
+        .container{
+            display: grid;
+            gap: 20px;
+            grid-template-areas: 
+            "header header  header  header"
+            "nav   main    main     sidebar"
+            "nav   main    main     advertise"
+            "footer footer  footer  footer"
+        }
+    </style>
+</head>
+<body class="container">
+    <header class="header">
+        <h1>Grid Layout Practice</h1>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="">nav- 1</a></li>
+            <li><a href="">nav- 2</a></li>
+            <li><a href="">nav- 3</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <article>
+            <h3>Main Article - 1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, nisi repellat dolorem nostrum repellendus blanditiis consequatur non, officia, voluptatem accusamus sint suscipit vitae perferendis architecto sed explicabo earum cum. Nihil.</p>
+        </article>
+        <article>
+            <h3>Main Article - 2</h3>
+            <p>Ut perferendis eos, corporis sint qui a quam assumenda dolorem minima beatae laudantium officia sequi quisquam sit. Ad ipsum sit eveniet, amet laborum at facilis iure. Aperiam consequatur repudiandae veniam?</p>
+        </article>
+    </main>
+    <aside>
+        <div class="sidebar">
+        <h3>Sidebar</h3>
+        </div>
+        <div class="advertise">
+        <h3>Advertise</h3>
+        </div>
+    </aside>
+    <footer>
+        <div class="footer">
+        <h3>The Footer</h3>
+        </div>
+    </footer>
+</body>
+</html>
